@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registrar"
+    android:orientation="vertical"
+    android:background="@drawable/fondo1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HABITAT HORIZONTAL REGISTRO"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo Unidad Habitacional"
+        android:layout_marginTop="30dp">
+    </TextView>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/SpinnerTipo"
+        android:layout_marginTop="1dp">
+    </Spinner>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Valor Arrendamiento"
+        android:inputType="number"
+        android:id="@+id/txtPrecio">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Direccion"
+        android:id="@+id/txtDireccion">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Propietario"
+        android:id="@+id/txtNombreP">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Telefono"
+        android:inputType="number"
+        android:id="@+id/txtTelefono">
+    </EditText>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="45dp"
+            android:text="Fecha Recepcion"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:textSize="15dp"></TextView>
+
+            <Spinner
+                android:layout_width="95dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/SpinnerDia"
+                android:layout_marginTop="30dp">
+            </Spinner>
+
+
+        <Spinner
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="4dp"
+            android:id="@+id/SpinnerMes"
+            android:layout_marginTop="30dp">
+        </Spinner>
+        <Spinner
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="4dp"
+            android:id="@+id/SpinnerAnio"
+            android:layout_marginTop="30dp">
+        </Spinner>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="REGISTRAR"
+        android:background="@drawable/boton"
+        android:id="@+id/btnRegistrar">
+    </Button>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

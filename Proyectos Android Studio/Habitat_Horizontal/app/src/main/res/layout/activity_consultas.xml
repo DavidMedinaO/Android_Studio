@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Consultas"
+    android:orientation="vertical"
+    android:background="@drawable/fondo1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HABITAT HORIZONTAL CONSULTAS"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp">
+    </TextView>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/SpinnerConsulta"
+        android:layout_marginTop="30dp">
+    </Spinner>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="CONSULTAR"
+        android:background="@drawable/boton"
+        android:id="@+id/btnConsultarC"></Button>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:id="@+id/lbMostrar"></TextView>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="45dp"
+            android:text="Fecha"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:textSize="23dp"
+            android:id="@+id/lbfechas"></TextView>
+
+        <Spinner
+            android:layout_width="95dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/SpinnerDiaC"
+            android:layout_marginTop="30dp">
+        </Spinner>
+
+
+        <Spinner
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="4dp"
+            android:id="@+id/SpinnerMesC"
+            android:layout_marginTop="30dp">
+        </Spinner>
+        <Spinner
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="4dp"
+            android:id="@+id/SpinnerAnioC"
+            android:layout_marginTop="30dp">
+        </Spinner>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="BUSCAR"
+        android:background="@drawable/boton"
+        android:id="@+id/btnBFechaC"></Button>
+
+
+</LinearLayout>

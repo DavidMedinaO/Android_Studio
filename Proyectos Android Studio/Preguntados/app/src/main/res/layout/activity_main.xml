@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondof"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:text="PREGUNTADOS"
+        android:textAlignment="center"
+        android:layout_marginTop="150dp"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_rounded_border"
+        android:textColor="@color/colorPrimaryDark"
+        ></TextView>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTRARSE"
+        android:textAlignment="center"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/button_rounded"
+        android:id="@+id/btnRegistrarse"
+
+        ></Button>
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="JUGAR"
+    android:textAlignment="center"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/button_rounded"
+        android:id="@+id/btnJugar"
+
+    ></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PUNTAJES"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_rounded"
+        android:id="@+id/btnPuntajes"
+
+        ></Button>
+
+
+
+
+</LinearLayout>
